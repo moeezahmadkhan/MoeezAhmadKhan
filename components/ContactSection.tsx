@@ -125,7 +125,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold">Education</h3>
-                  <p className="text-primary">Bachelor's in Computer Science (BSCS) 2021-2025</p>
+                  <p className="text-primary">Bachelor&apos;s in Computer Science (BSCS) 2021-2025</p>
                   <p className="text-white/60 text-sm">FSc Engineering: 887/1100 • Matriculation: 948/1100</p>
                 </div>
               </div>

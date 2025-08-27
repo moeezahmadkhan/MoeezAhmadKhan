@@ -29,20 +29,19 @@ const HeroSection = () => {
         {/* Large PORTFOLIO text */}
         <div className="relative mb-28">
           <h1 className="text-6xl sm:text-4xl lg:text-8xl font-black text-white tracking-tight leading-none animate-fade-in">
-            SOFTWARE ENGINEER
+            MOEEZ AHMAD KHAN
           </h1>
           
           {/* Profile image positioned over the text */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 z-20 border-b-8 border-primary rounded-full ">
+          <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
             <div className="relative">
               <Image
                 src="/hero-img.png"
                 alt="Moeez Ahmad Khan Profile"
-                width={200}
+                width={300}
                 height={300}
-                className="rounded-full p-1"
+                className="rounded-full border-b-8 border-primary"
               />
-              
             </div>
           </div>
         </div>
