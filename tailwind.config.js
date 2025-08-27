@@ -13,7 +13,7 @@ module.exports = {
         accent: '#1f2937',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 1s ease-out forwards',

@@ -1,9 +1,9 @@
 import React from 'react'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+// Fallback font configuration to avoid Google Fonts download issues
+const fontFamily = 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
 
 export const metadata: Metadata = {
   title: 'Moeez Ahmad Khan - Creative Portfolio',
@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className}  bg-gradient-to-br from-black via-gray-900 to-black bg-fixed text-white antialiased bg-repeat`}>
+      <body className="bg-gradient-to-br from-black via-gray-900 to-black bg-fixed text-white antialiased bg-repeat" style={{ fontFamily }}>
         {children}
       </body>
     </html>

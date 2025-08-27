@@ -29,7 +29,7 @@ const HeroSection = () => {
         {/* Large PORTFOLIO text */}
         <div className="relative mb-28">
           <h1 className="text-6xl sm:text-4xl lg:text-8xl font-black text-white tracking-tight leading-none animate-fade-in">
-            MOEEZ AHMAD KHAN
+            SOFTWARE ENGINEER
           </h1>
           
           {/* Profile image positioned over the text */}
