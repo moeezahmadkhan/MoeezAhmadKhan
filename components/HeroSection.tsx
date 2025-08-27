@@ -33,13 +33,13 @@ const HeroSection = () => {
           </h1>
           
           {/* Profile image positioned over the text */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+          <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/3 z-20">
             <div className="relative">
               <Image
                 src="/hero-img.png"
                 alt="Moeez Ahmad Khan Profile"
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 className="rounded-full border-b-8 border-primary"
               />
             </div>
