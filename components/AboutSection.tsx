@@ -85,7 +85,7 @@ const AboutSection = () => {
             
             <div className="relative">
               <Image
-                src="/hero-img.png"
+                src="/hero-image.png"
                 alt="Hero Image"
                 width={400}
                 height={400}
