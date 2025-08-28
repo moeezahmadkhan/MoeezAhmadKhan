@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import { HiMail, HiPhone, HiLocationMarker, HiCode, HiAcademicCap } from 'react-icons/hi'
 import { GiTrophy } from 'react-icons/gi'
+import { FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from 'react-icons/fa' // Import new icons
 // import nodemailer from 'nodemailer'
 
 const ContactSection = () => {
@@ -101,10 +102,10 @@ const ContactSection = () => {
                 <div>
                   <h3 className="text-white font-semibold">Phone</h3>
                   <a 
-                    href="tel:+923436925716" 
+                    href="tel:+923035772640" 
                     className="text-primary hover:text-primary/80 transition-colors duration-300"
                   >
-                    +92 343 6925716
+                    +92 303 5772640
                   </a>
                 </div>
               </div>
@@ -115,7 +116,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold">Location</h3>
-                  <p className="text-primary">398 Faisal Garden, JT Lahore, Pakistan</p>
+                  <p className="text-primary">39B Faisal Garden, JT Lahore, Pakistan</p>
                 </div>
               </div>
 
@@ -151,20 +152,36 @@ const ContactSection = () => {
               <h3 className="text-white font-semibold mb-4">Follow Me</h3>
               <div className="flex space-x-4">
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/moeez-ahmad-khan-68a403364/" 
                   target="_blank" 
                   rel="noreferrer"
                   className="bg-primary/10 border border-primary/30 text-primary p-3 rounded-lg hover:bg-primary/20 transition-all duration-300 hover:scale-110"
                 >
-                  <HiCode size={24} />
+                  <FaLinkedin size={24} />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://github.com/moeezahmadkhan" 
                   target="_blank" 
                   rel="noreferrer"
                   className="bg-primary/10 border border-primary/30 text-primary p-3 rounded-lg hover:bg-primary/20 transition-all duration-300 hover:scale-110"
                 >
-                  <span className="text-primary font-medium">LinkedIn</span>
+                  <FaGithub size={24} />
+                </a>
+                <a 
+                  href="https://www.instagram.com/moozisthebest" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="bg-primary/10 border border-primary/30 text-primary p-3 rounded-lg hover:bg-primary/20 transition-all duration-300 hover:scale-110"
+                >
+                  <FaInstagram size={24} />
+                </a>
+                <a 
+                  href="https://wa.me/923035772640" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="bg-primary/10 border border-primary/30 text-primary p-3 rounded-lg hover:bg-primary/20 transition-all duration-300 hover:scale-110"
+                >
+                  <FaWhatsapp size={24} />
                 </a>
               </div>
             </div>
