@@ -17,33 +17,11 @@ const Footer = () => {
               MERN Stack Web Developer
             </div>
             <div className="text-white/40 text-sm mt-1">
-              Working under Associate Professor Zubaira Naz • General Manager at Tribal Folks
+              AWS Cloud ENgineer
             </div>
           </div>
-          
-          <div className="flex justify-center md:justify-end space-x-6">
-            <a 
-              href="#" 
-              rel="noreferrer" 
-              target="_blank"
-              className="group"
-            >
-              <div className="bg-primary/10 border border-primary/30 text-primary p-3 rounded-lg hover:bg-primary/20 transition-all duration-300 group-hover:scale-110">
-                <HiCode size={24} />
-              </div>
-            </a>
-            <a
-              href="#"
-              rel="noreferrer"
-              target="_blank"
-              className="group"
-            >
-              <div className="bg-primary/10 border border-primary/30 text-primary p-3 rounded-lg hover:bg-primary/20 transition-all duration-300 group-hover:scale-110">
-                <AiOutlineLinkedin size={24} />
-              </div>
-            </a>
-          </div>
         </div>
+
         
         {/* Bottom section */}
         <div className="mt-8 pt-8 border-t border-white/10 text-center">
@@ -54,7 +32,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="text-white/30 text-xs mt-2">
-            Specializing in MERN Stack • React.js • Python GenAI Applications
+            Specializing in MERN Stack • React.js • Python GenAI Applications • AWS
           </div>
         </div>
       </div>
