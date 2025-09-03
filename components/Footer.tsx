@@ -1,43 +1,30 @@
-'use client'
-
-import React from 'react'
-import { HiCode } from 'react-icons/hi'
-import { AiOutlineLinkedin } from 'react-icons/ai'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-black border-t border-white/10">
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* <div className="grid md:grid-cols-2 gap-8 items-center">
+    <footer className="bg-black text-white py-4 px-4 sm:px-6 lg:py-8 lg:px-8">
+      <div className="container mx-auto max-w-7xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
-            <div className="text-white/60 mb-2">
-              © 2025 Moeez Ahmad Khan. All rights reserved.
-            </div>
-            <div className="text-primary font-medium">
+            <h3 className="text-white text-lg font-semibold mb-2">
+              Moeez Ahmad Khan
+            </h3>
+            <p className="text-gray-400">
               MERN Stack Web Developer
-            </div>
-            <div className="text-white/40 text-sm mt-1">
+            </p>
+            <p className="text-gray-400">
               AWS Cloud Engineer
-            </div>
+            </p>
           </div>
-        </div> */}
-
-        
-        {/* Bottom section */}
-        <div className="mt-8 pt-8 border-t border-white/10 text-center">
-          <div className="text-white/40 text-sm">
-            <span>Portfolio: </span>
-            <a href="https://moeezkhan.vercel.app" className="text-primary hover:text-primary/80 transition-colors duration-300">
-              www.moeezkhan.vercel.app
-            </a>
-          </div>
-          <div className="text-white/30 text-xs mt-2">
-            Specializing in MERN Stack • React.js • Python GenAI Applications • AWS
+          <div className="text-center md:text-right">
+            <p className="text-gray-400">
+              © 2025 Moeez Ahmad. All rights reserved.
+            </p>
           </div>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
