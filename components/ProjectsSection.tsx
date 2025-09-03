@@ -1,15 +1,25 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
-import { HiExternalLink, HiCode } from 'react-icons/hi'
+
+const HiExternalLink = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path fillRule="evenodd" d="M14.586 4.707a1.5 1.5 0 0 1 2.121 0l4.243 4.243a1.5 1.5 0 0 1 0 2.121l-7.778 7.778a1.5 1.5 0 0 1-2.121 0L4.707 14.586a1.5 1.5 0 0 1 0-2.121l7.779-7.778ZM6 21.5a1 1 0 0 1 0-2h12a1 1 0 0 1 0 2H6Z" clipRule="evenodd" />
+  </svg>
+)
+
+const HiCode = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path fillRule="evenodd" d="M3.805 3.805A1 1 0 0 1 5.22 5.22L2.73 7.71a.75.75 0 0 0-.22.53v8.32a.75.75 0 0 0 .22.53l2.49 2.49a1 1 0 1 1-1.414 1.414l-2.49-2.49A2.25 2.25 0 0 1 0 16.56v-8.32a2.25 2.25 0 0 1 .66-1.59l2.49-2.49ZM18.78 5.22a1 1 0 0 1 1.414 0l2.49 2.49a2.25 2.25 0 0 1 .66 1.59v8.32a2.25 2.25 0 0 1-.66 1.59l-2.49 2.49a1 1 0 1 1-1.414-1.414l2.49-2.49a.75.75 0 0 0 .22-.53v-8.32a.75.75 0 0 0-.22-.53l-2.49-2.49a1 1 0 0 1 0-1.414ZM7.757 18a1 1 0 0 1-1-1.127l1-12a1 1 0 0 1 2 .167l-1 12A1 1 0 0 1 7.757 18Z" clipRule="evenodd" />
+  </svg>
+)
 
 const projects = [
   {
     name: "Python GenAI Applications & RAG Systems",
     description:
       "Comprehensive assignments and projects under Associate Professor Zubaira Naz (2024-Present). Developed Python applications for GenAI, including APIs, prompt engineering, command-line chatbots with conversation memory, and Retrieval-Augmented Generation (RAG) systems using LangChain.",
-    image: "/fyp.png",
+    image: "/Rag.jpg",
     github: "#",
     link: "#",
     tech: ["Python", "LangChain", "ChromaDB", "FAISS", "APIs", "Prompt Engineering", "RAG Systems"]
@@ -17,7 +27,7 @@ const projects = [
   {
     name: "Query Sphere: Flutter Community App",
     description: "Developed a community and chat-based mobile application using Flutter for the front-end. Implemented the back-end using Firebase and Supabase for real-time chat functionality and data management.",
-    image: "/foundenuer.png", 
+    image: "/QuerySphere.jpg", 
     github: "#",
     link: "#",
     tech: ["Flutter", "Firebase", "Supabase", "Real-time Chat", "Mobile Development"]
@@ -25,7 +35,7 @@ const projects = [
   {
     name: "Airbnb Replica: Full-Stack Project",
     description: "Developed a full-stack replica of the Airbnb platform, focusing on property listings, search functionality, and responsive layouts. Utilized React.js for component-based architecture and MongoDB with Express.js for the back-end.",
-    image: "/Meter.png",
+    image: "/AirBnb Replica.jpg",
     github: "#",
     link: "#",
     tech: ["React.js", "MongoDB", "Express.js", "Tailwind CSS", "Full-Stack Development"]
@@ -33,7 +43,7 @@ const projects = [
   {
     name: "Tribal Folks Management",
     description: "Served as General Manager at Tribal Folks, managing operations and projects with a focus on timely delivery and quality control. Oversaw project lifecycles and ensured operational excellence.",
-    image: "/Eagles.png",
+    image: "/Tribal.jpg",
     github: "#",
     link: "#",
     tech: ["Project Management", "Operations", "Quality Control", "Team Leadership"]
@@ -57,13 +67,12 @@ const ProjectsSection = () => {
             return (
               <div key={idx} className="group bg-gray-900/50 rounded-2xl p-6 border border-gray-800 hover:border-primary/30 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/10">
                 {/* Project Image */}
-                <div className="relative mb-6 overflow-hidden rounded-xl">
-                  <Image
+                <div className="relative mb-6 overflow-hidden rounded-xl aspect-square">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
                     src={project.image}
                     alt={project.name}
-                    width={600}
-                    height={400}
-                    className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">

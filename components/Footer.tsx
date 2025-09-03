@@ -7,8 +7,8 @@ import { AiOutlineLinkedin } from 'react-icons/ai'
 const Footer = () => {
   return (
     <footer className="bg-black border-t border-white/10">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
             <div className="text-white/60 mb-2">
               © 2025 Moeez Ahmad Khan. All rights reserved.
@@ -17,10 +17,10 @@ const Footer = () => {
               MERN Stack Web Developer
             </div>
             <div className="text-white/40 text-sm mt-1">
-              AWS Cloud ENgineer
+              AWS Cloud Engineer
             </div>
           </div>
-        </div>
+        </div> */}
 
         
         {/* Bottom section */}
