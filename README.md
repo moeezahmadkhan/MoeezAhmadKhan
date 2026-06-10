@@ -1,5 +1,5 @@
 # 💫 About Me:
-🚀 I’m currently working as an AI/ML Developer, building agentic AI systems, GenAI-powered web applications, and real-time computer vision pipelines. I’m looking to collaborate on projects involving AI agents, RAG workflows, LangChain, and MERN stack applications. I’m seeking help with scaling and deploying agent-based systems on cloud platforms like AWS. 🌱 I’m currently learning advanced multi-agent orchestration and autonomous AI workflows. 💬 Ask me about agentic AI, GenAI, computer vision, MERN stack, or Flutter. ⚡ Fun fact: I love designing AI agents that can plan, reason, and act on their own.
+🚀 https://moeezahmadkhan.com  I’m currently working as an AI/ML Developer, building agentic AI systems, GenAI-powered web applications, and real-time computer vision pipelines. I’m looking to collaborate on projects involving AI agents, RAG workflows, LangChain, and MERN stack applications. I’m seeking help with scaling and deploying agent-based systems on cloud platforms like AWS. 🌱 I’m currently learning advanced multi-agent orchestration and autonomous AI workflows. 💬 Ask me about agentic AI, GenAI, computer vision, MERN stack, or Flutter. ⚡ Fun fact: I love designing AI agents that can plan, reason, and act on their own.
 
 
 ## 🌐 Socials:
