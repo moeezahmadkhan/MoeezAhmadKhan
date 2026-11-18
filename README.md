@@ -16,7 +16,6 @@ My main work in 2026 is a health AI agent for a US telehealth platform (private)
 members from their real wearable data, lab results and history.
 **See:** [Relay](https://github.com/moeezahmadkhan/Relay-LabLab) is a multi-agent PR pipeline
 with four agents in four frameworks, built for a hackathon.
-[Pawlyse](https://github.com/moeezahmadkhan/Pawlyse) is a RAG vet-triage assistant.
 [amazon-sheet-mcp](https://github.com/moeezahmadkhan/DropshippingMcpAmazon) is an MCP server.
 
 #### 2 · LLM safety, grounding and evaluation
